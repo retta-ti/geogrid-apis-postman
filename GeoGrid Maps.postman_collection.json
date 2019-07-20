@@ -1,0 +1,864 @@
+{
+	"info": {
+		"_postman_id": "cbd006d6-77e0-4755-ac6b-2a943354f225",
+		"name": "GeoGrid Maps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "2. Clientes",
+			"item": [
+				{
+					"name": "Clientes - Consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "13a68f51-d3a1-45cd-8cc4-1925ac9607bd",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "be7cf9c0-b4bf-4729-a56c-8c365bb1d4bc",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "3. Cidades",
+			"item": [
+				{
+					"name": "Cidades - Consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "836c4f8f-63bf-4710-be17-3bc97df647c9",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9827e48-1e81-4b31-870b-2d3d554552b2",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "4. Ponto de Acesso",
+			"item": [
+				{
+					"name": "Ponto de Acesso  - Consulta por código",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ponto de Acesso  - Consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "12a3a388-3719-4d9e-a60d-24e503a7d7a0",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "13dbfc49-ed94-4cbf-8575-c51180b31d21",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "5. Grupos de acesso (predio no mapa)",
+			"item": [],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d9eadf78-ffd9-4d3a-aef0-972fbcb94b8e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "146d5f83-aa25-4b72-98dc-ba5dec2f0d3c",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "6. Caixas/Racks/Terminais",
+			"item": [
+				{
+					"name": "Caixa - Listagem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Terminal - Listagem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rack - Listagem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reserva Técnica - Consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Recipientes - Consulta por proximidade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						},
+						"description": "http://blog.geogridmaps.com.br/?p=postagens/artigo/70"
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "e1e405de-a4eb-44bc-a74f-c637457382b4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "79971a60-3cb6-4a09-bc9b-86a6e49b5fcc",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "7. Equipamentos",
+			"item": []
+		},
+		{
+			"name": "8. Ponto de Interesse",
+			"item": [
+				{
+					"name": "Ponto de Interresse - Consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/consultar",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/consultar"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ponto de Interresse - Cadastro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id_cidade",
+									"value": "3831",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.019200",
+									"type": "text"
+								},
+								{
+									"key": "latitude",
+									"value": "-29.985452",
+									"type": "text"
+								},
+								{
+									"key": "nome_cliente",
+									"value": " Fulano da RETTA",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "(51)98201-9535",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ponto de Interresse - Excluir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/interesse/cadastrar&id_cidade&latitude=-29.449643&longitude=-51.9444536&nome_cliente=RETTA&id_cliente&telefone&usuario&id_suario",
+							"host": [
+								"{{url-geogrid}}"
+							],
+							"path": [
+								"aconcagua",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "exec",
+									"value": "{{token-geogrid}}/interesse/cadastrar"
+								},
+								{
+									"key": "id_cidade",
+									"value": null
+								},
+								{
+									"key": "latitude",
+									"value": "-29.449643"
+								},
+								{
+									"key": "longitude",
+									"value": "-51.9444536"
+								},
+								{
+									"key": "nome_cliente",
+									"value": "RETTA"
+								},
+								{
+									"key": "id_cliente",
+									"value": null
+								},
+								{
+									"key": "telefone",
+									"value": null
+								},
+								{
+									"key": "usuario",
+									"value": null
+								},
+								{
+									"key": "id_suario",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a7870ca5-b65e-44f1-a12a-80adbef676a8",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "0d108b7d-348b-4af7-9931-567d8264be85",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Obter Versão do GeoGrid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url-geogrid}}/aconcagua/api/?exec={{token-geogrid}}/versao/verificar",
+					"host": [
+						"{{url-geogrid}}"
+					],
+					"path": [
+						"aconcagua",
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "exec",
+							"value": "{{token-geogrid}}/versao/verificar"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "f77ca57e-0b3b-46b9-a34b-0f6cb6e36041",
+			"key": "url",
+			"value": "url",
+			"type": "string"
+		},
+		{
+			"id": "12bd9a44-ca5f-4cef-b220-bc939512e322",
+			"key": "token",
+			"value": "token",
+			"type": "string"
+		}
+	]
+}
